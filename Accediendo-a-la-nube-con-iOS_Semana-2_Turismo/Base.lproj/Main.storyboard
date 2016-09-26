@@ -39,7 +39,7 @@
                             <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Hoteles" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Hoteles" image="hotel" id="acW-dT-cKf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -79,7 +79,7 @@
                             <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Cines" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Cines" image="cine" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -118,7 +118,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Restaurantes" id="KNW-RX-mrG"/>
+                    <tabBarItem key="tabBarItem" title="Restaurantes" image="restaurant" id="KNW-RX-mrG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5p6-oy-9R9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -126,7 +126,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
+        <image name="cine" width="32" height="32"/>
+        <image name="hotel" width="32" height="32"/>
+        <image name="restaurant" width="32" height="32"/>
     </resources>
 </document>
